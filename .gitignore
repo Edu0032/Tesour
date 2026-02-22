@@ -1,0 +1,15 @@
+# JetBrains (WebStorm, IntelliJ, etc)
+.idea/
+*.iml
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Caso você use futuramente o Node.js
+node_modules/
+dist/
+build/
