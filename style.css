@@ -1,3 +1,9 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -494,9 +500,16 @@ footer {
     .menu-toggle {
         display: block;
     }
-
+    .hero-text {
+        min-width: 100%;
+        width: 100%;
+    }
+    .hero {
+        overflow: hidden;
+    }
     .hero-text h1 {
-        font-size: 32px;
+        font-size: 28px;
+        word-wrap: break-word;
     }
     .hero-content {
         flex-direction: column;
