@@ -23,12 +23,20 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
 
+.logo img {
+    height: 100px;   /* ajuste aqui */
+    width: auto;
+}
 /* HEADER */
 .header {
     background: rgba(255,255,255,0.95);
     backdrop-filter: blur(10px);
-    padding: 18px 0;
+    padding: 0px 0;
     border-bottom: 1px solid #e2e8f0;
     position: sticky;
     top: 0;
