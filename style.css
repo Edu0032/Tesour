@@ -29,7 +29,7 @@ body {
 }
 
 .logo img {
-    height: 100px;   /* ajuste aqui */
+    max-height: 100px;   /* ajuste aqui */
     width: auto;
 }
 /* HEADER */
